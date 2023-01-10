@@ -1,0 +1,22 @@
+.navegacion {
+    background-color: $naranja;
+    justify-content: center;
+    
+    display: flex;
+    gap: 2rem;
+    gap: 2rem; 
+    padding: 2rem;
+    a{
+        text-align: center;
+        color: $blanco;
+
+        &:hover {
+            color: $amarillo;
+        }
+    }
+    @media(max-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
